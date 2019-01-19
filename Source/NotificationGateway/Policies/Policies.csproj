@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Events\Events.csproj" />
     <ProjectReference Include="..\Concepts\Concepts.csproj" />
+    <ProjectReference Include="..\Read\Read.csproj" />
   </ItemGroup>
 
   <ItemGroup>

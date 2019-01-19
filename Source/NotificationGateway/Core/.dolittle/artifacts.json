@@ -10,12 +10,28 @@
       "573d4609-fa75-4c2f-8d7c-f7cf7da3de53": {
         "generation": 1,
         "type": "Events.SMS.TextMessageReceived, Events"
+      },
+      "f031260d-afce-446c-9339-0bc6b605146f": {
+        "generation": 1,
+        "type": "Events.SMS.TextMessageReceivedFromDataCollector, Events"
+      },
+      "207f8662-e51a-495b-a34c-7bcf96ce14b8": {
+        "generation": 1,
+        "type": "Events.SMS.TextMessageReceivedFromUnknown, Events"
       }
     },
     "eventSources": {
       "2b4d5244-8d30-4cd1-8459-0efacaefdf28": {
         "generation": 1,
         "type": "Domain.SMS.TextMessage, Domain"
+      },
+      "3cb160ef-a63d-4706-bd30-d79a840a539c": {
+        "generation": 1,
+        "type": "Domain.SMS.TextMessagesFromDataCollector, Domain"
+      },
+      "c4b76f19-f186-4a2a-ae37-30d5f395e0c0": {
+        "generation": 1,
+        "type": "Domain.SMS.TextMessagesFromUnknownSender, Domain"
       }
     },
     "readModels": {
@@ -28,6 +44,39 @@
       "d21b40f9-8666-45c7-9ec6-b3ea4cd717b2": {
         "generation": 1,
         "type": "Read.SMS.AllReceivedMessages, Read"
+      }
+    }
+  },
+  "2e1a97cd-9884-4b31-b767-8890e3603978": {
+    "commands": {},
+    "events": {
+      "3dec7053-ccb8-44d0-9cfb-1106eab7050a": {
+        "generation": 1,
+        "type": "Events.DataCollectors.PhoneNumberAddedToDataCollector, Events"
+      },
+      "95c58220-b38a-4ddf-88e9-e03378566eca": {
+        "generation": 1,
+        "type": "Events.DataCollectors.PhoneNumberRemovedFromDataCollector, Events"
+      }
+    },
+    "eventSources": {},
+    "readModels": {},
+    "queries": {}
+  },
+  "ad84bb8f-c81b-45be-b606-f914c1da7da6": {
+    "commands": {},
+    "events": {},
+    "eventSources": {},
+    "readModels": {
+      "b7320b92-0420-4c66-b6a1-b12c54083d17": {
+        "generation": 1,
+        "type": "Read.DataCollector.DataCollector, Read"
+      }
+    },
+    "queries": {
+      "f7000b70-8613-4922-b6dc-33b431333f8d": {
+        "generation": 1,
+        "type": "Read.DataCollector.DataCollectorByPhoneNumber, Read"
       }
     }
   }

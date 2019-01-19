@@ -4,6 +4,14 @@
     "1fe47770-08ec-4642-801c-afc0ccf02fff": {
       "name": "SMS",
       "subFeatures": {}
+    },
+    "2e1a97cd-9884-4b31-b767-8890e3603978": {
+      "name": "DataCollectors",
+      "subFeatures": {}
+    },
+    "ad84bb8f-c81b-45be-b606-f914c1da7da6": {
+      "name": "DataCollector",
+      "subFeatures": {}
     }
   }
 }
